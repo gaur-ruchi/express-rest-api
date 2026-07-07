@@ -9,7 +9,7 @@ jobs:
 
     steps:
       - name: Checkout code 
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Deploy to the server via SSH
         uses: appleboy/ssh-action@v1.0.3
@@ -20,6 +20,6 @@ jobs:
           script: |
             cd /home/ubuntu/express-rest-api
             git pull origin main
-            docker-compose down
-            docker-compose up -d --build 
+            docker compose down
+            docker compose up -d --build 
         
