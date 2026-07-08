@@ -6,13 +6,6 @@ Docker Compose orchestrates a multi-container environment where Nginx acts as a 
 
 ---
 
-## 🚀 Live Demo
-
-* **Production URL:** https://wind-drift.online
-* **API Architecture:** HTTPS-encrypted RESTful endpoints
-
----
-
 ## ✨ Features
 
 * Dockerized Node.js REST API
